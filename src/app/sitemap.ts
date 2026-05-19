@@ -4,6 +4,7 @@ import { filmProductionPages } from '@/lib/film-production-pages';
 import { homeServicesPages } from '@/lib/home-services-pages';
 import { legalIndustryPages } from '@/lib/legal-pages';
 import { topMetroPages } from '@/lib/metro-seo';
+import { businessPhoneSystemPages } from '@/lib/business-phone-system-pages';
 
 const BASE_URL = 'https://my-voip.com';
 
@@ -59,6 +60,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.8,
   }));
 
+  const businessPhoneSystemClusterPages: MetadataRoute.Sitemap = businessPhoneSystemPages.map((page) => ({
+    url: `${BASE_URL}/business-phone-systems/${page.slug}`,
+    lastModified: now,
+    changeFrequency: 'weekly',
+    priority: 0.8,
+  }));
+
   return [
     ...staticPages,
     ...servicePages,
@@ -67,5 +75,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...filmClusterPages,
     ...legalClusterPages,
     ...homeServicesClusterPages,
+    ...businessPhoneSystemClusterPages,
   ];
 }

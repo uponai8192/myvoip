@@ -296,6 +296,37 @@ export const serviceSeoContentBySlug: Record<string, ServiceSeoContent> = {
     relatedIndustrySlugs: ['insurance', 'real-estate', 'education', 'restaurants'],
     relatedMetroSlugs: ['new-york-ny', 'dallas-tx', 'miami-fl', 'los-angeles-ca', 'san-diego-ca', 'chicago-il'],
   },
+  'sentiment-analysis': {
+    title: 'VoIP Sentiment Analysis for Call Centers and Customer Service Teams',
+    description:
+      'Use MyVoIP sentiment analysis to score customer calls in real time with AI voice analytics, NLP transcription, agent alerts, automated QA, and trend reporting.',
+    introEyebrow: 'AI Voice Analytics',
+    introHeading: 'Turn live customer calls into measurable coaching and CX data',
+    introParagraphs: [
+      'VoIP sentiment analysis helps businesses understand how callers feel while the conversation is still happening. Instead of relying only on call recordings or occasional manual QA reviews, AI evaluates acoustic cues, transcription context, and language patterns to classify interactions as positive, neutral, or negative.',
+      'The strongest use cases are customer service teams, sales floors, healthcare scheduling, insurance agencies, property managers, and contact centers where the tone of a call can change the outcome. A caller who starts neutral may become frustrated after a policy explanation, billing delay, refund issue, long hold, or repeated transfer. Sentiment tracking gives agents and managers a faster signal.',
+      'MyVoIP positions sentiment analysis as part of the communication workflow, not a disconnected reporting tool. Calls can be transcribed, scored, flagged, reviewed, and summarized so teams can coach better, spot recurring customer pain points, and understand which interactions need follow-up before they become churn or bad reviews.',
+    ],
+    buyerSignals: [
+      {
+        title: 'Real-time agent assistance',
+        description:
+          'Give agents live sentiment feedback so they can adjust tone, slow down, escalate, or use de-escalation steps before a call gets worse.',
+      },
+      {
+        title: 'Automated QA at scale',
+        description:
+          'Flag negative calls, track average sentiment, and surface coaching moments without asking managers to manually listen to every recording.',
+      },
+      {
+        title: 'Trend visibility across calls',
+        description:
+          'Identify repeated frustration around policies, products, billing, scheduling, or support processes by aggregating sentiment across many conversations.',
+      },
+    ],
+    relatedIndustrySlugs: ['insurance', 'healthcare', 'property-management', 'financial-services'],
+    relatedMetroSlugs: ['new-york-ny', 'chicago-il', 'dallas-tx', 'atlanta-ga', 'miami-fl', 'phoenix-az'],
+  },
 };
 
 export const industrySeoContentBySlug: Record<string, IndustrySeoContent> = {

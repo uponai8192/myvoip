@@ -182,6 +182,25 @@ export const services: Service[] = [
     ],
     icon: 'bot',
   },
+  {
+    slug: 'sentiment-analysis',
+    name: 'VoIP Sentiment Analysis',
+    shortName: 'Sentiment Analysis',
+    tagline: 'Real-time AI call sentiment, voice analytics, and automated QA',
+    description:
+      'MyVoIP sentiment analysis uses AI, speech recognition, and natural language processing to evaluate customer calls in real time. Track tone, pace, pitch, word choice, and conversation context so teams can identify positive, neutral, or negative interactions while there is still time to act.',
+    features: [
+      'Real-time sentiment scoring',
+      'AI call transcription with NLP',
+      'Tone, pitch, pace, and pause detection',
+      'Positive, neutral, and negative interaction labels',
+      'Agent dashboard alerts',
+      'Automated QA and call flagging',
+      'Trend reporting by topic and team',
+      'Coaching insights for managers',
+    ],
+    icon: 'activity',
+  },
 ];
 
 // ─── Industries ───────────────────────────────────────────────────────────────

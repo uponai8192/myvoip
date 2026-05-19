@@ -53,6 +53,7 @@ const SERVICE_PHOTOS: Record<string, string> = {
   'voip-integration':       '/site-photos/team-meeting.jpg',
   'ai-voice-agents':        '/site-photos/ai-concept.jpeg',
   'ai-chatbots':            '/site-photos/ai-chatbot.jpeg',
+  'sentiment-analysis':     '/site-photos/ai-neural.jpeg',
 };
 
 // Photo badge overlay data per service
@@ -66,6 +67,7 @@ const SERVICE_BADGES: Record<string, { top: string; bottom: string }> = {
   'voip-integration':       { top: '100+ Integrations', bottom: 'REST API Access' },
   'ai-voice-agents':        { top: '24/7 AI Answering', bottom: '< 1s Response' },
   'ai-chatbots':            { top: '80% Auto-Resolved', bottom: 'Live on Your Site' },
+  'sentiment-analysis':     { top: 'Real-Time AI Scoring', bottom: 'Auto QA Insights' },
 };
 
 

@@ -20,6 +20,7 @@ const servicePhotos: Record<string, string> = {
   'mobile-voip-sms': '/site-photos/business-mobile.jpg',
   'web-video-conferencing': '/site-photos/team-consultation.jpg',
   'voip-integration': '/site-photos/digital-cx.png',
+  'sentiment-analysis': '/site-photos/ai-neural.jpeg',
 };
 
 interface Props {
