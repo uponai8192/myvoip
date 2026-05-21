@@ -7,6 +7,14 @@ import FeaturesGrid from '@/components/sections/FeaturesGrid';
 import Testimonials from '@/components/sections/Testimonials';
 import CTASection from '@/components/sections/CTASection';
 
+const appDownloadLinks = {
+  ios: 'https://apps.apple.com/app/id1577418525',
+  android: 'https://play.google.com/store/apps/details?id=com.my.voip.softphone.android',
+  windows: '/downloads/mobile-desktop-app/MY-VOIP-2.2.0.0~8113622174d-x64.exe',
+  macIntel: '/downloads/mobile-desktop-app/MY-VOIP_2.2_component_x86_signed%20(1).pkg',
+  macAppleSilicon: '/downloads/mobile-desktop-app/MY-VOIP_2.2_component_arm64_signed.pkg',
+};
+
 export const metadata: Metadata = {
   ...buildPageMetadata({
     title: 'Business VoIP Phone Service Starting at $9.99/Month',
@@ -317,7 +325,7 @@ export default function HomePage() {
                 </p>
                 <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-3 mb-6">
                   <a
-                    href="https://apps.apple.com/us/app/my-voip/id1577418525"
+                    href={appDownloadLinks.ios}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex w-full sm:w-auto items-center gap-2.5 bg-black hover:bg-slate-800 text-white font-semibold px-5 py-3 rounded-xl transition-colors border border-slate-700"
@@ -331,7 +339,7 @@ export default function HomePage() {
                     </span>
                   </a>
                   <a
-                    href="https://play.google.com/store/apps/details?id=com.my.voip.softphone.android"
+                    href={appDownloadLinks.android}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex w-full sm:w-auto items-center gap-2.5 bg-black hover:bg-slate-800 text-white font-semibold px-5 py-3 rounded-xl transition-colors border border-slate-700"
@@ -347,6 +355,39 @@ export default function HomePage() {
                       <span className="block text-base font-bold leading-tight">Google Play</span>
                     </span>
                   </a>
+                </div>
+                <div className="mb-6 rounded-2xl border border-slate-700 bg-slate-900/70 p-5">
+                  <div className="mb-4">
+                    <div className="text-xs font-semibold uppercase tracking-wide text-blue-300">Desktop App Downloads</div>
+                    <div className="text-white font-semibold mt-1">Use MyVoIP on Windows or Mac</div>
+                    <div className="text-sm text-slate-400 mt-1">Choose the correct desktop installer for your computer.</div>
+                  </div>
+                  <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
+                  <a
+                    href={appDownloadLinks.windows}
+                    className="rounded-2xl border border-slate-700 bg-slate-800/80 p-4 hover:border-blue-500/50 transition-colors"
+                  >
+                    <div className="text-xs uppercase tracking-wide text-slate-500 mb-1">Desktop App</div>
+                    <div className="text-base font-semibold text-white mb-2">Windows</div>
+                    <div className="text-sm text-slate-400">Direct download for Windows.</div>
+                  </a>
+                  <a
+                    href={appDownloadLinks.macIntel}
+                    className="rounded-2xl border border-slate-700 bg-slate-800/80 p-4 hover:border-blue-500/50 transition-colors"
+                  >
+                    <div className="text-xs uppercase tracking-wide text-slate-500 mb-1">Desktop App</div>
+                    <div className="text-base font-semibold text-white mb-2">Mac Intel</div>
+                    <div className="text-sm text-slate-400">Direct download for Intel-based Macs.</div>
+                  </a>
+                  <a
+                    href={appDownloadLinks.macAppleSilicon}
+                    className="rounded-2xl border border-slate-700 bg-slate-800/80 p-4 hover:border-blue-500/50 transition-colors"
+                  >
+                    <div className="text-xs uppercase tracking-wide text-slate-500 mb-1">Desktop App</div>
+                    <div className="text-base font-semibold text-white mb-2">Mac Apple Silicon</div>
+                    <div className="text-sm text-slate-400">Direct download for M-series Macs.</div>
+                  </a>
+                  </div>
                 </div>
                 <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4 p-4 bg-slate-700/50 rounded-xl">
                   <div className="text-center sm:text-left">
