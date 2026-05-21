@@ -331,8 +331,8 @@ export const aiSentimentPages: AiSentimentPage[] = [
       },
     ],
     photo: {
-      src: '/site-photos/digital-cx.png',
-      alt: 'Insurance agency analytics view tracking quote-call sentiment and follow-up risk.',
+      src: '/site-photos/team-consultation.jpg',
+      alt: 'Insurance team reviewing quote-call sentiment and customer follow-up priorities.',
     },
   },
   {
@@ -641,8 +641,8 @@ export const aiSentimentPages: AiSentimentPage[] = [
       },
     ],
     photo: {
-      src: '/ai-photos/test-call.png',
-      alt: 'HVAC operations screen reviewing live call testing and sentiment-analysis workflow.',
+      src: '/site-photos/business-mobile.jpg',
+      alt: 'HVAC dispatch team managing service calls and customer sentiment follow-up.',
     },
   },
   {
@@ -703,8 +703,8 @@ export const aiSentimentPages: AiSentimentPage[] = [
       },
     ],
     photo: {
-      src: '/ai-photos/extension-routing.png',
-      alt: 'Plumbing service call-routing and sentiment-review dashboard for dispatch teams.',
+      src: '/site-photos/team-office.jpg',
+      alt: 'Plumbing office team reviewing emergency service calls and customer sentiment trends.',
     },
   },
   {
@@ -765,8 +765,8 @@ export const aiSentimentPages: AiSentimentPage[] = [
       },
     ],
     photo: {
-      src: '/ai-photos/sip-registration.png',
-      alt: 'Electrical service operations panel using AI call review and sentiment scoring.',
+      src: '/site-photos/team-on-phone.jpg',
+      alt: 'Electrical service staff handling customer calls and reviewing sentiment outcomes.',
     },
   },
   {
@@ -889,8 +889,8 @@ export const aiSentimentPages: AiSentimentPage[] = [
       },
     ],
     photo: {
-      src: '/ai-photos/knowledge-bases.png',
-      alt: 'Service-team analytics screen used for auto-repair call sentiment review.',
+      src: '/site-photos/team-conversation.jpg',
+      alt: 'Auto repair team discussing customer-call sentiment and service follow-up.',
     },
   },
   {
@@ -951,8 +951,8 @@ export const aiSentimentPages: AiSentimentPage[] = [
       },
     ],
     photo: {
-      src: '/site-photos/ai-chatbot.jpeg',
-      alt: 'Ecommerce support workflow combining conversation AI and customer sentiment analysis.',
+      src: '/site-photos/laptop-typing.jpg',
+      alt: 'Ecommerce support team reviewing customer-call sentiment and order issues.',
     },
   },
   {
@@ -1013,8 +1013,8 @@ export const aiSentimentPages: AiSentimentPage[] = [
       },
     ],
     photo: {
-      src: '/site-photos/ai-concept.jpeg',
-      alt: 'SaaS customer-support environment using AI sentiment analysis for call quality review.',
+      src: '/site-photos/team-office.jpg',
+      alt: 'SaaS support team reviewing customer-call sentiment and account follow-up.',
     },
   },
   {
@@ -1137,8 +1137,8 @@ export const aiSentimentPages: AiSentimentPage[] = [
       },
     ],
     photo: {
-      src: '/site-photos/ai-neural.jpeg',
-      alt: 'Financial-services analytics environment using AI to review client-call sentiment.',
+      src: '/site-photos/team-consultation.jpg',
+      alt: 'Financial services team reviewing client-call sentiment and service trends.',
     },
   },
   {
@@ -1199,8 +1199,8 @@ export const aiSentimentPages: AiSentimentPage[] = [
       },
     ],
     photo: {
-      src: '/site-photos/digital-cx.png',
-      alt: 'Credit union support analytics tracking member-call sentiment and service outcomes.',
+      src: '/site-photos/team-on-phone.jpg',
+      alt: 'Credit union staff reviewing member-call sentiment and support quality.',
     },
   },
   {
@@ -1323,8 +1323,8 @@ export const aiSentimentPages: AiSentimentPage[] = [
       },
     ],
     photo: {
-      src: '/ai-photos/add-phone-number.png',
-      alt: 'Appointment-booking workflow integrated with AI call review and sentiment analysis.',
+      src: '/site-photos/voip-phone.jpg',
+      alt: 'Appointment-booking team reviewing scheduling calls and caller sentiment.',
     },
   },
   {
@@ -1447,8 +1447,8 @@ export const aiSentimentPages: AiSentimentPage[] = [
       },
     ],
     photo: {
-      src: '/ai-photos/voice-selection.png',
-      alt: 'Multilingual voice-selection and sentiment-analysis workflow for business phone calls.',
+      src: '/site-photos/team-conversation.jpg',
+      alt: 'Multilingual support team reviewing call sentiment across language groups.',
     },
   },
   {
@@ -1509,8 +1509,8 @@ export const aiSentimentPages: AiSentimentPage[] = [
       },
     ],
     photo: {
-      src: '/ai-photos/post-call-analysis.png',
-      alt: 'Post-call analytics screen showing QA coaching and sentiment-analysis data.',
+      src: '/site-photos/omnichannel.jpg',
+      alt: 'QA and coaching team reviewing call sentiment trends and service quality.',
     },
   },
 ];
