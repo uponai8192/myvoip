@@ -27,8 +27,8 @@ const servicePhotos: Record<string, string> = {
 const mobileAndDesktopAppLinks = {
   ios: 'https://apps.apple.com/app/id1577418525',
   android: 'https://play.google.com/store/apps/details?id=com.my.voip.softphone.android',
-  windows: 'https://github.com/uponai8192/myvoip/releases/latest/download/MY-VOIP-2.2.0.0~8113622174d-x64.exe',
-  macIntel: 'https://github.com/uponai8192/myvoip/releases/latest/download/MY-VOIP_2.2_component_x86_signed%20%281%29.pkg',
+  windows: 'https://github.com/uponai8192/myvoip/releases/latest/download/MY-VOIP-2.2.0.0.8113622174d-x64.exe',
+  macIntel: 'https://github.com/uponai8192/myvoip/releases/latest/download/MY-VOIP_2.2_component_x86_signed.1.pkg',
   macAppleSilicon: 'https://github.com/uponai8192/myvoip/releases/latest/download/MY-VOIP_2.2_component_arm64_signed.pkg',
 };
 
