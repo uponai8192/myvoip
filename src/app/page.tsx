@@ -10,9 +10,9 @@ import CTASection from '@/components/sections/CTASection';
 const appDownloadLinks = {
   ios: 'https://apps.apple.com/app/id1577418525',
   android: 'https://play.google.com/store/apps/details?id=com.my.voip.softphone.android',
-  windows: '/downloads/mobile-desktop-app/MY-VOIP-2.2.0.0~8113622174d-x64.exe',
-  macIntel: '/downloads/mobile-desktop-app/MY-VOIP_2.2_component_x86_signed%20(1).pkg',
-  macAppleSilicon: '/downloads/mobile-desktop-app/MY-VOIP_2.2_component_arm64_signed.pkg',
+  windows: 'https://github.com/uponai8192/myvoip/releases/latest/download/MY-VOIP-2.2.0.0~8113622174d-x64.exe',
+  macIntel: 'https://github.com/uponai8192/myvoip/releases/latest/download/MY-VOIP_2.2_component_x86_signed%20%281%29.pkg',
+  macAppleSilicon: 'https://github.com/uponai8192/myvoip/releases/latest/download/MY-VOIP_2.2_component_arm64_signed.pkg',
 };
 
 export const metadata: Metadata = {
