@@ -990,6 +990,36 @@ export const industrySeoContentBySlug: Record<string, IndustrySeoContent> = {
     relatedServiceSlugs: ['business-voip', 'mobile-voip-sms', 'ai-voice-agents', 'ai-chatbots'],
     relatedMetroSlugs: ['miami-fl', 'phoenix-az', 'los-angeles-ca', 'dallas-tx', 'san-diego-ca', 'las-vegas-nv'],
   },
+  veterinary: {
+    title: 'Veterinary Clinic Phone Systems for Scheduling, Triage, and After-Hours Coverage',
+    description:
+      'Deploy a VoIP phone system built for veterinary clinics — with smarter appointment routing, after-hours emergency coverage, AI-assisted intake, and mobile access for front-desk and on-call staff.',
+    introEyebrow: 'Veterinary Practice Communication',
+    introHeading: 'What vet clinics actually need from a phone system',
+    introParagraphs: [
+      'Veterinary front desks deal with high call volume across appointment scheduling, prescription refills, routine owner questions, and occasional urgent care inquiries — all mixed together with no automatic triage. That puts real pressure on small teams that are also managing in-clinic patients.',
+      'A veterinary phone system is most useful when it separates routine traffic from urgent calls, keeps the after-hours coverage path reliable, and gives the practice a way to stay responsive without requiring every staff member to be at the desk.',
+    ],
+    buyerSignals: [
+      {
+        title: 'Reduce front-desk call pressure',
+        description:
+          'Route appointment requests, prescription questions, and repeat inquiries more efficiently so clinical staff are not pulled away from patients to answer the phone.',
+      },
+      {
+        title: 'Handle after-hours and emergency calls reliably',
+        description:
+          'Escalation paths, on-call routing, and AI-assisted first-contact keep urgent pet-owner calls from falling into voicemail when the clinic is closed.',
+      },
+      {
+        title: 'Support multi-doctor and multi-location practices',
+        description:
+          'Direct extensions, shared business numbers, and mobile VoIP keep vets, technicians, and front-desk staff connected across locations without using personal phones.',
+      },
+    ],
+    relatedServiceSlugs: ['business-voip', 'ai-voice-agents', 'mobile-voip-sms', 'hosted-fax'],
+    relatedMetroSlugs: ['dallas-tx', 'chicago-il', 'phoenix-az', 'miami-fl', 'charlotte-nc', 'denver-co'],
+  },
   restaurants: {
     title: 'Restaurant Phone Systems for Reservations, Orders, and Rush Hours',
     description:

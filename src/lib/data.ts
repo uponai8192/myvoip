@@ -506,6 +506,43 @@ export const industries: Industry[] = [
     color: 'blue',
   },
   {
+    slug: 'veterinary',
+    name: 'Veterinary Clinics',
+    tagline: 'HIPAA-conscious VoIP for vet clinics, animal hospitals, and multi-doctor practices',
+    description:
+      'Veterinary practices handle a constant mix of appointment calls, prescription questions, urgent pet-owner concerns, and after-hours emergencies. MyVoIP gives vet teams better routing, mobile answering, and AI-assisted intake so the front desk can focus on in-clinic care instead of the phone.',
+    challenges: [
+      'Front desk buried in repetitive appointment and prescription calls',
+      'After-hours emergency calls with no reliable coverage path',
+      'Multi-doctor and multi-location routing without a unified system',
+      'Urgent calls mixed in with routine inquiries and no triage layer',
+      'Staff taking personal cell calls or missing service requests',
+    ],
+    solutions: [
+      'Smart routing separates urgent calls from routine scheduling traffic',
+      'AI-assisted after-hours answering captures emergencies and urgent callbacks',
+      'Cloud phone extensions for each doctor, technician, and front-desk line',
+      'Mobile VoIP keeps staff reachable on the business number outside the clinic',
+      'Voicemail transcription and SMS keep follow-up moving between appointments',
+    ],
+    features: [
+      'After-hours emergency routing and on-call escalation',
+      'AI-assisted first-contact for appointment and prescription calls',
+      'Doctor and staff direct extensions with shared clinic number',
+      'Business SMS for appointment confirmations and owner follow-up',
+      'Voicemail transcription delivered by email',
+      'HIPAA-conscious cloud fax for referrals and records',
+    ],
+    stats: [
+      { value: '24/7', label: 'Emergency Call Coverage' },
+      { value: '< 24 hrs', label: 'Setup Time' },
+      { value: '99.99%', label: 'Uptime SLA' },
+      { value: '$9.99', label: 'Starting/mo' },
+    ],
+    icon: 'heart',
+    color: 'emerald',
+  },
+  {
     slug: 'fitness',
     name: 'Fitness & Wellness',
     tagline: 'VoIP for gyms, studios & wellness centers that keeps members connected',
