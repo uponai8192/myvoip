@@ -29,11 +29,6 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     title: `VoIP for ${industry.name} in ${cs} | MyVoIP`,
     description: `MyVoIP provides ${industry.name.toLowerCase()} businesses in ${cs} with cloud phone systems, AI features, and 24/7 US-based support. ${industry.tagline}. Starting at $9.99/month.`,
     path: `/industries/${slug}/${citySlug}`,
-    robots: {
-      index: false,
-      follow: true,
-      googleBot: { index: false, follow: true },
-    },
     openGraphDescription: `${industry.tagline} — serving ${cs}.`,
     twitterDescription: `${industry.tagline} — serving ${cs}.`,
   });

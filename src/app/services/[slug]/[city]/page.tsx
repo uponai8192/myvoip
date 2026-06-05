@@ -32,11 +32,6 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     description: `MyVoIP provides ${service.name.toLowerCase()} for businesses in ${location}. ${service.tagline}. Starting at $9.99/month with 24/7 US-based support. Get a free quote today.`,
     keywords: [`${service.shortName.toLowerCase()} ${city.name}`, `business VoIP ${city.name}`, `cloud phone system ${city.name} ${city.stateAbbr}`, `${service.shortName.toLowerCase()} ${city.state}`],
     path: `/services/${slug}/${citySlug}`,
-    robots: {
-      index: false,
-      follow: true,
-      googleBot: { index: false, follow: true },
-    },
     openGraphDescription: `${service.name} for ${location} businesses. ${service.tagline}.`,
     twitterDescription: `${service.name} for ${location} businesses. ${service.tagline}.`,
   });

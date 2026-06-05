@@ -20,11 +20,6 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     title: `AI Voice Agents in ${cs} × UponAI`,
     description: `Deploy AI voice agents for your ${cs} business. Answer every call 24/7, qualify leads, book appointments, and route callers — powered by UponAI and MyVoIP.`,
     path: `/services/ai-voice-agents/${city.slug}`,
-    robots: {
-      index: false,
-      follow: true,
-      googleBot: { index: false, follow: true },
-    },
     openGraphDescription: `Automate your phone lines with human-sounding AI that never sleeps. Built for ${cs} businesses.`,
     twitterDescription: `Automate your phone lines with human-sounding AI that never sleeps. Built for ${cs} businesses.`,
   });
