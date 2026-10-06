@@ -25,7 +25,7 @@ const resourcesLinks = [
 ];
 
 const supportLinks = [
-  { label: 'Knowledge Base & Ticketing', href: 'https://myvoip.desk365.io/support', external: true },
+  { label: 'Ticketing System & Knowledge Base', href: 'https://support.my-voip.com', external: true },
   { label: 'VoIP Readiness', href: 'https://app.replycloud.io/My-Voip', external: true },
   { label: 'Ping Plotter Download', href: 'https://www.pingplotter.com/download/', external: true },
   {

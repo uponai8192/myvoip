@@ -6,7 +6,7 @@ import { buildPageMetadata } from '@/lib/seo';
 import { buildBreadcrumbSchema, buildFaqSchema, buildServiceSchema } from '@/lib/seo-rich';
 
 const APP_STORE_URL = 'https://apps.apple.com/us/app/my-voip/id1577418525';
-const GOOGLE_PLAY_URL = 'https://play.google.com/store/apps/details?id=com.my.voip.softphone.android';
+const GOOGLE_PLAY_URL = 'https://play.google.com/store/apps/details?id=com.myvoip.app.softphone.android&hl=en_US';
 
 export const metadata: Metadata = buildPageMetadata({
   title: 'Mobile VoIP and Business SMS App for iOS and Android',
